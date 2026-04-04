@@ -6,7 +6,7 @@ Já com getters e setters, você coloca uma espécie de “porteiro” no seu da
 
 Usar getters e setters ajuda porque você evita que valores sem sentido sejam atribuídos, deixa o código mais fácil de manter no futuro,te dá liberdade pra mudar a lógica depois sem quebrar tudo*/
 
-public class Produto {
+public class calcado {
     private double preco;
 
     public void setPreco(double preco) {
