@@ -22,6 +22,6 @@ public class Produto {
     }
 }
 
-/* Em uma empresa que cadastra preço de produtos se não houvesse o getter e o setter ele poderia
-ser alterado sem querer ou de forma inválida, mas nesse caso preco não pode ser menor ou igual a zero aplicando uma primeira barreira.
+/* Em uma empresa que cadastra preço de produtos, se não houvesse encapsulamento ele poderia
+ser alterado sem querer ou de forma inválida. Mas, nesse caso, preco não pode ser menor ou igual a zero aplicando uma primeira barreira.
  */
