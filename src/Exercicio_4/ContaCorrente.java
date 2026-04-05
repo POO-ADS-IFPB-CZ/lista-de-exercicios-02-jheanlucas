@@ -3,7 +3,7 @@ package Exercicio_4;
 public class ContaCorrente {
     private int numero;
     private String titular;
-    private double saldo;
+    private float saldo;
 
     public ContaCorrente(int numero, String titular) {
         this.numero = numero;
@@ -35,7 +35,7 @@ public class ContaCorrente {
         }
     }
 
-    public double consultarSaldo() {
+    public float consultarSaldo() {
         return saldo;
     }
 }
